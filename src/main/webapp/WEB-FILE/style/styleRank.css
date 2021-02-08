@@ -1,0 +1,29 @@
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/background.png");
+}
+
+.center {
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    background-color: white;
+    width: 50%;
+}
+
+.container {
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+table {
+    margin-bottom: 5%;
+}

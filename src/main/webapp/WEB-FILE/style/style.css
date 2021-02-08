@@ -1,0 +1,66 @@
+input:focus {
+    border-bottom: 1px solid #ff9900 !important;
+    box-shadow: 0 1px 0 0 #ff9900 !important;
+}
+
+.input-field input[type].valid,
+.input-field input[type].valid:focus,
+.input-field textarea.valid,
+.input-field textarea.valid:focus {
+    border-bottom: 1px solid #ff9900;
+    box-shadow: 0 1px 0 0 #ff9900;
+}
+
+span {
+    display: none;
+}
+
+label.active {
+    color: #ff9900 !important;
+}
+
+i.active {
+    color: #ff9900 !important;
+}
+
+.check[type="checkbox"]:checked + label:before{
+    border: 2px solid transparent;
+    border-bottom: 2px solid #ff9900;
+    border-right: 2px solid #ff9900;
+    background: transparent;
+}
+.check.filled-in[type="checkbox"] + label:after{
+    border: 2px solid #ff9900;
+    background: transparent;
+}
+.check.filled-in[type="checkbox"]:checked + label:after{
+    background: #ff9900;
+}
+.check.filled-in[type="checkbox"]:checked + label:before{
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+#zone1 {
+    padding: 2% 2% 2% 2%;
+}
+
+#zone2 {
+    padding: 2% 2% 2% 2%;
+}
+
+.logo {
+    width: 30%;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-top: 10%;
+    margin-bottom: -2.5%;
+    transform: translate(-50%, -50%);
+}
+
+.padleft10 {
+    margin-top: -2.5%;
+}
