@@ -1,0 +1,81 @@
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/background.png");
+}
+
+h4 {
+    font-size: 2vw !important;
+}
+
+h5 {
+    font-size: 2vw !important;
+}
+
+
+.center {
+    border-radius: 10px;
+    position: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 25%;
+    text-align: center;
+    z-index: 2;
+    background-color: white;
+    width: 50%;
+}
+
+i {
+    margin-left: 2%;
+}
+
+.icon {
+    margin-top: 5%;
+}
+
+.center-row {
+    margin-top: 5%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h4 {
+    margin-top: 3% !important;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container {
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card-reveal{
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.7) !important;
+}
+div.card-reveal span.card-title{
+    color: #ffffff !important;
+}
+.tabs{
+    background-color: transparent;
+}
+td, th{
+    padding: 5px 5px !important;
+}
+table.highlight>tbody>tr:hover{
+    background-color: rgba(238,110,115,0.6);
+}
+input[type=search]:focus{
+    border-bottom: 1px solid #ee6e73 !important;
+    box-shadow: 0 1px 0 0 #ee6e73 !important;
+}

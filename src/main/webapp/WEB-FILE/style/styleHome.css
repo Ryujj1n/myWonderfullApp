@@ -1,0 +1,35 @@
+.center {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.waves-effect {
+    background-color: #ff9900 !important;
+    font-weight: bold;
+    font-size: 2vw !important;
+    margin-bottom: 2%;
+}
+
+#btn1, #btn2, #btn3, #btn4 {
+    width: 50%;
+}
+
+#btn5 {
+    width: 24%;
+    margin-right: 2%;
+}
+
+#btn6 {
+    width: 24%;
+}
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/background.png");
+}

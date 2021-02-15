@@ -1,0 +1,33 @@
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/background.png");
+}
+
+h1 {
+    font-size: 3vw !important;
+}
+
+.center {
+    border-radius: 10px;
+    position: center;
+    margin-top: 13%;
+    margin-bottom: 13%;
+    margin-left: 25%;
+    text-align: center;
+    z-index: 2;
+    background-color: white;
+    width: 50%;
+}
+
+p {
+    text-align: left;
+}
+
+.container {
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 50px;
+    padding-right: 50px;
+}

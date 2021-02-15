@@ -1,0 +1,56 @@
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/background.png");
+}
+
+h1 {
+    font-size: 3vw !important;
+}
+
+.center {
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    background-color: white;
+    width: 50%;
+}
+
+.container {
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.file-field {
+    position: relative;
+    top: 50px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input:focus {
+    border-bottom: 1px solid #ff9900 !important;
+    box-shadow: 0 1px 0 0 #ff9900 !important;
+}
+
+.input-field input[type].valid,
+.input-field input[type].valid:focus,
+.input-field textarea.valid,
+.input-field textarea.valid:focus {
+    border-bottom: 1px solid #ff9900;
+    box-shadow: 0 1px 0 0 #ff9900;
+}
+
+label.active {
+    color: #ff9900 !important;
+}
+
+.btn {
+    background-color: #ff9900 !important;
+}
