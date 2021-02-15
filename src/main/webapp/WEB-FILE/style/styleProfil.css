@@ -5,6 +5,10 @@ body {
     background-image: url("../img/background.png");
 }
 
+h1 {
+    font-size: 3vw !important;
+}
+
 .center {
     border-radius: 10px;
     position: relative;
@@ -20,8 +24,6 @@ body {
 .container {
     padding-top: 1%;
     padding-bottom: 2%;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .file-field {

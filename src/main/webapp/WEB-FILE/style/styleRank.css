@@ -5,6 +5,10 @@ body {
     background-image: url("../img/background.png");
 }
 
+h1 {
+    font-size: 3vw !important;
+}
+
 .center {
     border-radius: 10px;
     position: relative;
@@ -14,7 +18,7 @@ body {
     text-align: center;
     z-index: 2;
     background-color: white;
-    width: 50%;
+    width: 75%;
 }
 
 .container {
