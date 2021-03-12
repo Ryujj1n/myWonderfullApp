@@ -15,6 +15,11 @@
     <param-value>bootstrap</param-value>
   </context-param>
 
+  <!-- Mapping des servlets -->
+  <servlet-mapping>
+    <servlet-name>UserInscription</servlet-name>
+    <url-pattern>/inscription</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>Faces Servlet</servlet-name>
     <url-pattern>*.xhtml</url-pattern>

@@ -26,8 +26,8 @@
     </style>
 </head>
 <body>
-<img class="logo" src="WEB-FILE/img/Student_Simulator.png" alt="Student_Simulator">
-<div class="row container padtop80">
+    <img class="logo" src="WEB-FILE/img/Student_Simulator.png" alt="Student_Simulator">
+    <div class="row container padtop80">
     <div class="col m6 offset-m3 s12">
         <div class="row">
             <div class="col s12">
@@ -75,16 +75,16 @@
                     <label for="pseudo">Pseudo *</label>
                 </div>
                 <div class="input-field col s12">
-                    <input class="validate" id="password" type="password" minlength="8" maxlength="16" required>
                     <label for="password">Mot de passe *</label>
+                    <input class="validate" id="password" type="password" minlength="8" maxlength="16" required>
                 </div>
                 <div class="input-field col s12">
-                    <input id="passwordConfirm" type="password" required>
                     <label id="lblPasswordConfirm" for="passwordConfirm">Confirmation du mot de passe *</label>
+                    <input id="passwordConfirm" type="password" required>
                 </div>
                 <p class="padleft10">
-                    <input class="check" type="checkbox" id="checkCondition" required/>
                     <label for="checkCondition">J'accepte de perdre et de rager *</label>
+                    <input class="check" type="checkbox" id="checkCondition" required/>
                 </p>
                 <div class="row">
                     <button class="btn waves-effect waves-light col s12" type="submit" name="inscript"
